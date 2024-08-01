@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    // background: rgb(109, 235, 235);
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    background-color: rgb(21, 38, 45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    // scroll-behavior: smooth;
+}
+
+header {
+    background: #212121;
+    padding: 10px 10px 20px 10px;
+    margin: 0 0 20px 0;
+    // height: 500px;
+}
+
+.head-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+
+}
+
+.head-contain h1 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(92, 217, 243);
+    text-transform: uppercase;
+
+}
+
+.head-contain h4 {
+    color: bisque;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.dept-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dept-logo img {
+    height: 250px;
+    width: auto;
+}
+
+.address-head {
+    font-size: 1vw;
+    display: flex;
+    // flex-direction:;
+    align-items: center;
+    justify-content: center;
+    color: burlywood;
+    font-size: medium;
+    // padding-bottom:0;
+}
+
+.mail-address {
+
+    display: flex;
+    // flex-direction:;
+    align-items: center;
+    justify-content: center;
+    color: burlywood;
+    font-size: medium;
+}
+
+
+
+#about,#eligibility {
+    margin: 60px 50px 30px 50px;
+    padding: 4vw 1vw 1vw 1vw;
+    gap: 30px;
+    display: flex;
+}
+#eligibility {
+    gap: 50px;
+}
+
+.about-img img {
+    height: 20rem;
+    width: auto;
+    border-radius: 10% 0;
+    box-shadow: 10px 10px 7px rgb(122, 120, 119);
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eli-img {
+    padding-top: 70px
+}
+.eli-img img{
+    filter: drop-shadow(0 0 6px azure);
+}
+
+.about-section ,.cul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.about-section .about-1 ,.culdiv-1,.eli-header{
+    // top :0;
+    align-self: center;
+    font-weight: bolder;
+    color: rgb(120, 244, 170);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.about-section .about-2,.culdiv-2,.eli-para li,footer {
+    color: azure;
+    font-size: 17px;
+
+}
+#cultural-program{
+    margin: 60px 50px 30px 50px;
+    padding: 4vw 1vw 1vw 1vw;
+    gap: 30px;
+    display: flex;
+    // align-items: center;
+    // padding-top: 2rem;
+
+}
+.cul{
+    width: 130%;
+}
+.scroll-cul {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width:120vw ;
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+.scroll-cul img {
+    // position: inherit;
+    height: 15.5rem;
+    // width: auto;
+}
+.faculty {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.fac-head{
+    align-self: center;
+    font-weight: bolder;
+    color: rgb(120, 244, 170);
+    font-size: 30px;
+    text-decoration: underline;
+}
+.fac-para{
+    // background: #293a41;
+    margin:20px 10px 20px 10px ;
+    padding: 20px 10px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:start;
+}
+
+.teacher,.union{
+    
+    display: flex;
+    gap: 63px;
+}
+.teacher div,.union div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teacher h5,.union h5,.eli-para h5 {
+    font-size: 16px;
+    color: #19b7b7;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+.teacher li,.union li{
+    color: azure;
+    list-style:upper-roman;
+}
+.eli-cra{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 30px;
+
+}
+.eli-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+// .eli-para h5{
+//     font-size:18px;
+// }
+.eli-cra li{
+    list-style:none;
+}
+footer{
+    background: #212121;
+    padding: 80px 30px 80px 30px;
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 10px 20px 10px;
+}
+.footer div{
+    padding: 20px;
+    display: flex;
+    // size: 20px;
+    // flex-direction: ;
+    justify-content: space-around;
+}
+.icons svg{
+    fill: white;
+    height: 25px;
+    width: auto;
+    // border-radius: 20px;
+}
+.icons {
+    height: 25px;
+    width: auto;
+}
+.icons :nth-last-child(2){
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-radius: 10px;  
+    
+}
+.icons :nth-last-child(3){
+    background:#0165E1;
+    border-radius: 50%;
+}
+footer a:nth-child(1){
+    // text-decoration: none;
+    color: #31bde0;
+}
+nav{
+    // position: fixed;
+    height: 60px;
+    // width: 100%;
+    background-color:#212121;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.links-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: azure;
+    transition: 200ms;
+    width: 100%;
+    justify-content: center;
+}
+nav a:hover{
+    background-color: #0165E1;
+}
+nav svg{
+    fill: azure;
+
+}
+#sidebar{
+    display: none;
+}
+.open-sidebar,.close-sidebar{
+    display: none;
+    padding: 0 20px;
+}
+
+@media(max-width:700px) {
+    #sidebar:checked ~#overlay{
+        height: 100%;
+        width: 100%;
+        background: #092320;
+        opacity: .7;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        // right :0;
+        transition: 500ms ease;
+    }
+    .open-sidebar,.close-sidebar{
+        display: block;
+        padding: 20px;
+    }
+    
+    .links-container{
+        // display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right:-100%;
+        z-index: 10;
+        width: 300px;
+        background: #646464;
+        box-shadow: -5px 0 5px #124553;
+        transition: 500ms ease-out;
+    }
+    #sidebar:checked ~ .links-container{
+        right: 0;
+
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content:flex-start;
+    }
+    .teacher h5,.union h5,.eli-para h5{
+        font-size: 13px;
+    }
+    .fac-para, .fac-para div{
+        flex-direction: column;
+        align-items: center;
+        // gap:10px
+    }
+    .fac-para{
+        margin: 0;
+    }
+    .fac-para,.teacher,.union{
+        gap: 10px;
+    }
+    .head-contain h1 {
+        font-size: 17px;
+    }
+
+    .head-contain h4 {
+        font-size: 10px;
+    }
+
+    .dept-logo img ,.eli-img img{
+        height: 120px;
+    }
+    .eli-img{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+    }
+
+    .head-contain {
+        gap: 8px;
+    }
+
+    .address-head,
+    .mail-address {
+        font-size: 10px;
+    }
+
+    #about,#cultural-program ,#eligibility{
+        display: flex;
+        flex-direction: column;
+        margin: 60px 20px 30px 20px;
+
+    }
+    #cultural-program{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 60px 20px 30px 20px;
+    }
+
+    .about-section {
+        padding: 15px;
+    }
+
+    .about-img img {
+        height: 15rem;
+        width: auto;
+        border-radius: 10% 0;
+        box-shadow: 10px 10px 7px rgb(122, 120, 119);
+    }
+
+    .about-section .about-1,.culdiv-1,.fac-head,.eli-header {
+        font-size: 18px;
+    }
+
+    .about-section .about-2,.culdiv-2,.teacher li,.union li,.eli-para li {
+        font-size: 12px;
+    }
+    .cul{
+        width: auto;
+    }
+    .scroll-cul{
+        height:160px ;
+        width: 50vw;
+        margin: 20px;
+        padding-top: 0;
+        
+    }
+    .scroll-cul img{
+        height: 141px;
+    }
+
+}
+
+@media(max-width:1000px ) and (min-width:701px) {
+    .head-contain h1 {
+        font-size: 2.5vw;
+    }
+    .fac-para{
+        flex-direction: column;
+        // justify-content: space- around;
+        align-items: center;
+    }
+ 
+    
+}
